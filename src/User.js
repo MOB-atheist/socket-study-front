@@ -74,7 +74,7 @@ function User() {
     const logIn = async () => {
         if (!nickTest.test(value)) {
             alert(
-                "A username is a unique identifier given to accounts in websites and social media"
+                "Alphanumeric string that may include _ and - having a length of 3 to 16 characters."
             );
             return
         }
